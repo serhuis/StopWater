@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "stopwater")(type "KiCad")(uri "${KIPRJMOD}/stopwater.kicad_sym")(options "")(descr ""))
+)
