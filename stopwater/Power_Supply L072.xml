@@ -1,0 +1,2244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>F:\my_proj\stopwater\stopwater\Power_Supply L072.kicad_sch</source>
+    <date>07.11.2023 14:23:31</date>
+    <tool>Eeschema 7.0.2</tool>
+    <textvar name="ADDRESS1">Голомолзин</textvar>
+    <textvar name="ADDRESS2"/>
+    <textvar name="ADDRESS3"/>
+    <textvar name="ADDRESS4"/>
+    <textvar name="DOCUMENTNUMBER">АСДА.468366.019 Э3</textvar>
+    <textvar name="KOD_IZDELIYA"/>
+    <textvar name="ORGANIZATION"/>
+    <textvar name="PERV_PRIMENENIE"/>
+    <textvar name="SHEETTOTAL">2</textvar>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Плата источника питания</title>
+        <company/>
+        <rev>dfjhdjhdhjdfj df df dfj dfj</rev>
+        <date/>
+        <source>Power_Supply L072.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>10nF 0603</value>
+      <footprint>0603</footprint>
+      <fields>
+        <field name="ALTIUM_VALUE">1u</field>
+        <field name="PART NUMBER">6195</field>
+        <field name="VENDOR">NIC</field>
+        <field name="VOLTAGE">50В</field>
+      </fields>
+      <libsource lib="Power_Supply L072-altium-import" part="root_1_10nF 0603" description="NMC0603X7R103J50TRP"/>
+      <property name="VOLTAGE" value="50В"/>
+      <property name="PART NUMBER" value="6195"/>
+      <property name="VENDOR" value="NIC"/>
+      <property name="VENDOR PN" value=""/>
+      <property name="ALTIUM_VALUE" value="1u"/>
+      <property name="KT" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Power_Supply L072.kicad_sch"/>
+      <property name="ki_description" value="NMC0603X7R103J50TRP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f7e23bac-86e9-4713-a4c1-bcc53e4c8a9d</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>22u 0603</value>
+      <footprint>0603</footprint>
+      <fields>
+        <field name="ALTIUM_VALUE">22u</field>
+        <field name="PART NUMBER">5716</field>
+        <field name="POWER/VOLTAGE">25В</field>
+        <field name="TKE">X7R</field>
+        <field name="TOLERANCE">±10%</field>
+        <field name="VENDOR">Murata</field>
+        <field name="VENDOR PN">GRM188R60J226MEA0D</field>
+      </fields>
+      <libsource lib="Power_Supply L072-altium-import" part="root_0_GRM188R60J226MEA0D" description="22u 0603"/>
+      <property name="TOLERANCE" value="±10%"/>
+      <property name="POWER/VOLTAGE" value="25В"/>
+      <property name="TKE" value="X7R"/>
+      <property name="PART NUMBER" value="5716"/>
+      <property name="VENDOR PN" value="GRM188R60J226MEA0D"/>
+      <property name="VENDOR" value="Murata"/>
+      <property name="ALTIUM_VALUE" value="22u"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Power_Supply L072.kicad_sch"/>
+      <property name="ki_description" value="22u 0603"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9bccc28b-e57f-4b13-8bfc-e97b033c2847</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>1000pF 300VAC</value>
+      <footprint>L16W5  V</footprint>
+      <fields>
+        <field name="ALTIUM_VALUE">10nF</field>
+        <field name="PART NUMBER">6226</field>
+        <field name="VENDOR">Vishay</field>
+        <field name="VENDOR PN">VY2102M29Y5US6TV7</field>
+      </fields>
+      <libsource lib="Power_Supply L072-altium-import" part="root_2_1000pF 300VAC" description="VY2102M29Y5US6TV7"/>
+      <property name="PART NUMBER" value="6226"/>
+      <property name="VENDOR PN" value="VY2102M29Y5US6TV7"/>
+      <property name="VENDOR" value="Vishay"/>
+      <property name="ALTIUM_VALUE" value="10nF"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Power_Supply L072.kicad_sch"/>
+      <property name="ki_description" value="VY2102M29Y5US6TV7"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e198541e-e8da-46cb-a7f1-7daf8102ae88</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>4.7uF 400V</value>
+      <footprint>D10P5L12</footprint>
+      <fields>
+        <field name="ALTIUM_VALUE">4.7uF 400V</field>
+        <field name="CODE">110683</field>
+        <field name="MANUFACTURER">FUJICON</field>
+        <field name="MANUFACTURER PN">TX2G4R7M-RBG12</field>
+        <field name="PART NUMBER">6024</field>
+      </fields>
+      <libsource lib="Power_Supply L072-altium-import" part="root_0_TX2G4R7M-RBG12" description="TX2G4R7M-RBG12"/>
+      <property name="PART NUMBER" value="6024"/>
+      <property name="MANUFACTURER PN" value="TX2G4R7M-RBG12"/>
+      <property name="MANUFACTURER" value="FUJICON"/>
+      <property name="CODE" value="110683"/>
+      <property name="ALTIUM_VALUE" value="4.7uF 400V"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Power_Supply L072.kicad_sch"/>
+      <property name="ki_description" value="TX2G4R7M-RBG12"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0fe62f64-884c-4fe4-ab68-5fe17b483fdf</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>10uF 35V</value>
+      <footprint>0805</footprint>
+      <fields>
+        <field name="ALTIUM_VALUE">10uF 35V</field>
+        <field name="KT">110432</field>
+        <field name="PART NUMBER">5244</field>
+        <field name="POWER/VOLTAGE">50В</field>
+        <field name="TKE">NP0</field>
+        <field name="TOLERANCE">±5%</field>
+        <field name="VENDOR">Murata</field>
+        <field name="VENDOR PN">GRM21BC8YA106KE11</field>
+      </fields>
+      <libsource lib="Power_Supply L072-altium-import" part="root_0_GRM21BC7YA475KE11L" description="4.7uF 0805"/>
+      <property name="TOLERANCE" value="±5%"/>
+      <property name="POWER/VOLTAGE" value="50В"/>
+      <property name="TKE" value="NP0"/>
+      <property name="PART NUMBER" value="5244"/>
+      <property name="VENDOR PN" value="GRM21BC8YA106KE11"/>
+      <property name="VENDOR" value="Murata"/>
+      <property name="ALTIUM_VALUE" value="10uF 35V"/>
+      <property name="KT" value="110432"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Power_Supply L072.kicad_sch"/>
+      <property name="ki_description" value="4.7uF 0805"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7c973b3c-e1b1-41ff-a6c1-05f7cbbd4cc9</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>10nF 0603</value>
+      <footprint>0603</footprint>
+      <fields>
+        <field name="ALTIUM_VALUE">1u</field>
+        <field name="PART NUMBER">6195</field>
+        <field name="VENDOR">NIC</field>
+        <field name="VOLTAGE">50В</field>
+      </fields>
+      <libsource lib="Power_Supply L072-altium-import" part="root_1_10nF 0603" description="NMC0603X7R103J50TRP"/>
+      <property name="VOLTAGE" value="50В"/>
+      <property name="PART NUMBER" value="6195"/>
+      <property name="VENDOR" value="NIC"/>
+      <property name="VENDOR PN" value=""/>
+      <property name="ALTIUM_VALUE" value="1u"/>
+      <property name="KT" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Power_Supply L072.kicad_sch"/>
+      <property name="ki_description" value="NMC0603X7R103J50TRP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5df9bb22-c92f-4b87-927c-30bce56a4de2</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>4.7uF 400V</value>
+      <footprint>D10P5L12</footprint>
+      <fields>
+        <field name="ALTIUM_VALUE">4.7uF 400V</field>
+        <field name="CODE">110683</field>
+        <field name="MANUFACTURER">FUJICON</field>
+        <field name="MANUFACTURER PN">TX2G4R7M-RBG12</field>
+        <field name="PART NUMBER">6024</field>
+      </fields>
+      <libsource lib="Power_Supply L072-altium-import" part="root_0_TX2G4R7M-RBG12" description="TX2G4R7M-RBG12"/>
+      <property name="PART NUMBER" value="6024"/>
+      <property name="MANUFACTURER PN" value="TX2G4R7M-RBG12"/>
+      <property name="MANUFACTURER" value="FUJICON"/>
+      <property name="CODE" value="110683"/>
+      <property name="ALTIUM_VALUE" value="4.7uF 400V"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Power_Supply L072.kicad_sch"/>
+      <property name="ki_description" value="TX2G4R7M-RBG12"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>11956314-e49c-4f67-b623-d21210c40240</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>10nF 0603</value>
+      <footprint>0603</footprint>
+      <fields>
+        <field name="ALTIUM_VALUE">22p</field>
+        <field name="PART NUMBER">6078</field>
+        <field name="VENDOR">NIC</field>
+        <field name="VOLTAGE">50В</field>
+      </fields>
+      <libsource lib="Power_Supply L072-altium-import" part="root_1_10nF 0603" description="NMC0603X7R103J50TRP"/>
+      <property name="VOLTAGE" value="50В"/>
+      <property name="PART NUMBER" value="6078"/>
+      <property name="VENDOR" value="NIC"/>
+      <property name="VENDOR PN" value=""/>
+      <property name="ALTIUM_VALUE" value="22p"/>
+      <property name="KT" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Power_Supply L072.kicad_sch"/>
+      <property name="ki_description" value="NMC0603X7R103J50TRP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9f99ea95-69ba-4b54-bd05-7423ed6cc579</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>1000pF 300VAC</value>
+      <footprint>1206</footprint>
+      <fields>
+        <field name="ALTIUM_VALUE">1000pF</field>
+        <field name="PART NUMBER">5556</field>
+        <field name="VENDOR">Vishay</field>
+        <field name="VENDOR PN">VY2102M29Y5US6TV7</field>
+      </fields>
+      <libsource lib="Power_Supply L072-altium-import" part="root_2_1000pF 300VAC" description="VY2102M29Y5US6TV7"/>
+      <property name="PART NUMBER" value="5556"/>
+      <property name="VENDOR PN" value="VY2102M29Y5US6TV7"/>
+      <property name="VENDOR" value="Vishay"/>
+      <property name="ALTIUM_VALUE" value="1000pF"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Power_Supply L072.kicad_sch"/>
+      <property name="ki_description" value="VY2102M29Y5US6TV7"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>008a4951-14a3-47fe-9488-1c344247f104</tstamps>
+    </comp>
+    <comp ref="C10">
+      <value>470nF 0603</value>
+      <footprint>0603</footprint>
+      <fields>
+        <field name="ALTIUM_VALUE">0.47µF</field>
+        <field name="CODE">110105</field>
+        <field name="MANUFACTURER">NIC</field>
+        <field name="MANUFACTURER PN">NMC0603X7R474K25TRP</field>
+        <field name="PART NUMBER">5093</field>
+        <field name="VOLTAGE">25В</field>
+      </fields>
+      <libsource lib="Power_Supply L072-altium-import" part="root_1_0.47µF 0603" description="NMC0603X7R474K25TRP"/>
+      <property name="VOLTAGE" value="25В"/>
+      <property name="PART NUMBER" value="5093"/>
+      <property name="MANUFACTURER" value="NIC"/>
+      <property name="MANUFACTURER PN" value="NMC0603X7R474K25TRP"/>
+      <property name="CODE" value="110105"/>
+      <property name="ALTIUM_VALUE" value="0.47µF"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Power_Supply L072.kicad_sch"/>
+      <property name="ki_description" value="NMC0603X7R474K25TRP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>771ac7d6-8ef7-4e49-a62a-2554abe2ba23</tstamps>
+    </comp>
+    <comp ref="C11">
+      <value>1000pF 300VAC</value>
+      <footprint>L12.5W5</footprint>
+      <fields>
+        <field name="ALTIUM_VALUE">4700pF</field>
+        <field name="PART NUMBER">5669</field>
+        <field name="VENDOR">Vishay</field>
+      </fields>
+      <libsource lib="Power_Supply L072-altium-import" part="root_1_1000pF 300VAC" description="VY2102M29Y5US6TV7"/>
+      <property name="PART NUMBER" value="5669"/>
+      <property name="VENDOR PN" value=""/>
+      <property name="VENDOR" value="Vishay"/>
+      <property name="ALTIUM_VALUE" value="4700pF"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Power_Supply L072.kicad_sch"/>
+      <property name="ki_description" value="VY2102M29Y5US6TV7"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3887f2b6-c3eb-4b38-b479-51c0b9ea01d1</tstamps>
+    </comp>
+    <comp ref="C12">
+      <value>1000pF 300VAC</value>
+      <footprint>L7.5W5H6P7.5</footprint>
+      <fields>
+        <field name="ALTIUM_VALUE">220pF</field>
+        <field name="PART NUMBER">6223</field>
+        <field name="VENDOR">Vishay</field>
+        <field name="VENDOR PN">VY2102M29Y5US6TV7</field>
+      </fields>
+      <libsource lib="Power_Supply L072-altium-import" part="root_1_1000pF 300VAC" description="VY2102M29Y5US6TV7"/>
+      <property name="PART NUMBER" value="6223"/>
+      <property name="VENDOR PN" value="VY2102M29Y5US6TV7"/>
+      <property name="VENDOR" value="Vishay"/>
+      <property name="ALTIUM_VALUE" value="220pF"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Power_Supply L072.kicad_sch"/>
+      <property name="ki_description" value="VY2102M29Y5US6TV7"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>058c6917-5c2e-41bc-9859-cafeab319a26</tstamps>
+    </comp>
+    <comp ref="C13">
+      <value>SMD 0805-1000пФ±5% 50В X7R</value>
+      <footprint>0805</footprint>
+      <fields>
+        <field name="ALTIUM_VALUE">1nF</field>
+        <field name="COMPONENTLINK1DESCRIPTION">Параметры конденсатора</field>
+        <field name="COMPONENTLINK1URL">ftp://192.168.1.200/Datasheets/Epcos/Capacitors/X7R_CC capacitors.pdf</field>
+        <field name="ID">i60026C508220F00009C</field>
+        <field name="KEY IMBASE">i60026C508220F00009C</field>
+        <field name="PART NUMBER">6225</field>
+        <field name="POWER/VOLTAGE">50В</field>
+        <field name="REM">SMD</field>
+        <field name="TKE">X7R</field>
+        <field name="TOLERANCE">±5%</field>
+        <field name="КОРПУС">0805</field>
+        <field name="ПРИМЕЧАНИЕ">*</field>
+      </fields>
+      <libsource lib="Power_Supply L072-altium-import" part="root_2_Cap_NP" description="Общ.прим."/>
+      <property name="ALTIUM_VALUE" value="1nF"/>
+      <property name="ID" value="i60026C508220F00009C"/>
+      <property name="ПРИМЕЧАНИЕ" value="*"/>
+      <property name="REM" value="SMD"/>
+      <property name="КОРПУС" value="0805"/>
+      <property name="TOLERANCE" value="±5%"/>
+      <property name="POWER/VOLTAGE" value="50В"/>
+      <property name="TKE" value="X7R"/>
+      <property name="COMPONENTLINK1DESCRIPTION" value="Параметры конденсатора"/>
+      <property name="COMPONENTLINK1URL" value="ftp://192.168.1.200/Datasheets/Epcos/Capacitors/X7R_CC capacitors.pdf"/>
+      <property name="KEY IMBASE" value="i60026C508220F00009C"/>
+      <property name="PART NUMBER" value="6225"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Power_Supply L072.kicad_sch"/>
+      <property name="ki_description" value="Общ.прим."/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3b39a71f-9f71-4275-981a-bb152058907c</tstamps>
+    </comp>
+    <comp ref="C14">
+      <value>SMD 0805-1000пФ±5% 50В X7R</value>
+      <footprint>0805</footprint>
+      <fields>
+        <field name="ALTIUM_VALUE">1nF</field>
+        <field name="COMPONENTLINK1DESCRIPTION">Параметры конденсатора</field>
+        <field name="COMPONENTLINK1URL">ftp://192.168.1.200/Datasheets/Epcos/Capacitors/X7R_CC capacitors.pdf</field>
+        <field name="ID">i60026C508220F00009C</field>
+        <field name="KEY IMBASE">i60026C508220F00009C</field>
+        <field name="PART NUMBER">6225</field>
+        <field name="POWER/VOLTAGE">50В</field>
+        <field name="REM">SMD</field>
+        <field name="TKE">X7R</field>
+        <field name="TOLERANCE">±5%</field>
+        <field name="КОРПУС">0805</field>
+        <field name="ПРИМЕЧАНИЕ">*</field>
+      </fields>
+      <libsource lib="Power_Supply L072-altium-import" part="root_2_Cap_NP" description="Общ.прим."/>
+      <property name="ALTIUM_VALUE" value="1nF"/>
+      <property name="ID" value="i60026C508220F00009C"/>
+      <property name="ПРИМЕЧАНИЕ" value="*"/>
+      <property name="REM" value="SMD"/>
+      <property name="КОРПУС" value="0805"/>
+      <property name="TOLERANCE" value="±5%"/>
+      <property name="POWER/VOLTAGE" value="50В"/>
+      <property name="TKE" value="X7R"/>
+      <property name="COMPONENTLINK1DESCRIPTION" value="Параметры конденсатора"/>
+      <property name="COMPONENTLINK1URL" value="ftp://192.168.1.200/Datasheets/Epcos/Capacitors/X7R_CC capacitors.pdf"/>
+      <property name="KEY IMBASE" value="i60026C508220F00009C"/>
+      <property name="PART NUMBER" value="6225"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Power_Supply L072.kicad_sch"/>
+      <property name="ki_description" value="Общ.прим."/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>868f74cd-9559-4f59-be9c-5b3ccb63e3d6</tstamps>
+    </comp>
+    <comp ref="C15">
+      <value>100uF 10V</value>
+      <footprint>D6.3P2.5L11.5</footprint>
+      <fields>
+        <field name="ALTIUM_VALUE">100uF 25V</field>
+        <field name="PART NUMBER">6208</field>
+        <field name="VENDOR">FUJICON</field>
+        <field name="VENDOR PN">TL1E101M-RBE11WP00</field>
+      </fields>
+      <libsource lib="Power_Supply L072-altium-import" part="root_0_100uF 10V" description="TL1A101M-RBD15WP00"/>
+      <property name="PART NUMBER" value="6208"/>
+      <property name="VENDOR PN" value="TL1E101M-RBE11WP00"/>
+      <property name="VENDOR" value="FUJICON"/>
+      <property name="ALTIUM_VALUE" value="100uF 25V"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Power_Supply L072.kicad_sch"/>
+      <property name="ki_description" value="TL1A101M-RBD15WP00"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8004c6a4-8b85-4b0d-be0e-a578150b17fb</tstamps>
+    </comp>
+    <comp ref="C16">
+      <value>470uF 10V</value>
+      <footprint>D8P3.5L12</footprint>
+      <fields>
+        <field name="ALTIUM_VALUE">220uF 35V</field>
+        <field name="MANUFACTURER">FUJICON</field>
+        <field name="PART NUMBER">RK1V221M-RBF11WP00</field>
+        <field name="PN">RK1V221M-RBF11WP00</field>
+      </fields>
+      <libsource lib="Power_Supply L072-altium-import" part="root_0_470uF 10V" description="TL1A471M-RBF11WP00"/>
+      <property name="PART NUMBER" value="RK1V221M-RBF11WP00"/>
+      <property name="PN" value="RK1V221M-RBF11WP00"/>
+      <property name="MANUFACTURER" value="FUJICON"/>
+      <property name="CODE" value=""/>
+      <property name="ALTIUM_VALUE" value="220uF 35V"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Power_Supply L072.kicad_sch"/>
+      <property name="ki_description" value="TL1A471M-RBF11WP00"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ed8d7b1b-4b62-404b-a90f-e0ec81a4f0bd</tstamps>
+    </comp>
+    <comp ref="C17">
+      <value>100uF 10V</value>
+      <footprint>D6.3P2.5L11.5</footprint>
+      <fields>
+        <field name="ALTIUM_VALUE">100uF 25V</field>
+        <field name="PART NUMBER">6208</field>
+        <field name="VENDOR">FUJICON</field>
+        <field name="VENDOR PN">TL1E101M-RBE11WP00</field>
+      </fields>
+      <libsource lib="Power_Supply L072-altium-import" part="root_0_100uF 10V" description="TL1A101M-RBD15WP00"/>
+      <property name="PART NUMBER" value="6208"/>
+      <property name="VENDOR PN" value="TL1E101M-RBE11WP00"/>
+      <property name="VENDOR" value="FUJICON"/>
+      <property name="ALTIUM_VALUE" value="100uF 25V"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Power_Supply L072.kicad_sch"/>
+      <property name="ki_description" value="TL1A101M-RBD15WP00"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>237aa9a9-3111-4f40-87fe-1092512b8343</tstamps>
+    </comp>
+    <comp ref="C18">
+      <value>470uF 10V</value>
+      <footprint>D8P3.5L12</footprint>
+      <fields>
+        <field name="ALTIUM_VALUE">220uF 35V</field>
+        <field name="MANUFACTURER">FUJICON</field>
+        <field name="PN">RK1V221M-RBF11WP00</field>
+      </fields>
+      <libsource lib="Power_Supply L072-altium-import" part="root_0_470uF 10V" description="TL1A471M-RBF11WP00"/>
+      <property name="PART NUMBER" value=""/>
+      <property name="PN" value="RK1V221M-RBF11WP00"/>
+      <property name="MANUFACTURER" value="FUJICON"/>
+      <property name="CODE" value=""/>
+      <property name="ALTIUM_VALUE" value="220uF 35V"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Power_Supply L072.kicad_sch"/>
+      <property name="ki_description" value="TL1A471M-RBF11WP00"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3a50cad6-218e-43e7-ba08-f215ec018492</tstamps>
+    </comp>
+    <comp ref="C19">
+      <value>SMD 0603-0.1мкФ±10% 25В X7R</value>
+      <footprint>0603</footprint>
+      <fields>
+        <field name="ALTIUM_VALUE">0.1u</field>
+        <field name="PART NUMBER">5001</field>
+        <field name="POWER/VOLTAGE">50В</field>
+        <field name="TKE">X7R</field>
+        <field name="TOLERANCE">±10%</field>
+        <field name="VENDOR PN">110165</field>
+        <field name="КОРПУС">0603</field>
+      </fields>
+      <libsource lib="Power_Supply L072-altium-import" part="root_0_mirrored_0.1µF 0603" description="GRM188R71E104KA01D"/>
+      <property name="КОРПУС" value="0603"/>
+      <property name="TOLERANCE" value="±10%"/>
+      <property name="POWER/VOLTAGE" value="50В"/>
+      <property name="TKE" value="X7R"/>
+      <property name="PART NUMBER" value="5001"/>
+      <property name="VENDOR PN" value="110165"/>
+      <property name="ALTIUM_VALUE" value="0.1u"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Power_Supply L072.kicad_sch"/>
+      <property name="ki_description" value="GRM188R71E104KA01D"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d5b82963-dff5-4e94-b40e-f372c3c76bb8</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>AP7384-33SA-7</value>
+      <footprint>SOT23_3</footprint>
+      <fields>
+        <field name="PART NUMBER">6198</field>
+        <field name="VENDOR">Diodes</field>
+        <field name="VENDOR PN">AP7384-33SA-7</field>
+      </fields>
+      <libsource lib="Power_Supply L072-altium-import" part="root_0_AP2125N-3.3TRG1" description="AP7384-33SA-7"/>
+      <property name="PART NUMBER" value="6198"/>
+      <property name="VENDOR PN" value="AP7384-33SA-7"/>
+      <property name="VENDOR" value="Diodes"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Power_Supply L072.kicad_sch"/>
+      <property name="ki_description" value="AP7384-33SA-7"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b933e835-c6fa-4b5c-ad8b-3927fd1737d4</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>Диодная сборка MDB10S</value>
+      <footprint>MDB10S</footprint>
+      <fields>
+        <field name="PART NUMBER">6112</field>
+        <field name="VENDOR">Diodes Incorporated</field>
+        <field name="VENDOR PN">MDB10S</field>
+      </fields>
+      <libsource lib="Power_Supply L072-altium-import" part="root_0_MDB10S" description="B10S"/>
+      <property name="VENDOR" value="Diodes Incorporated"/>
+      <property name="PART NUMBER" value="6112"/>
+      <property name="VENDOR PN" value="MDB10S"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Power_Supply L072.kicad_sch"/>
+      <property name="ki_description" value="B10S"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f04e99da-3630-4196-86fe-0b57e92cc736</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>MP020A-5GS</value>
+      <footprint>SO-7</footprint>
+      <fields>
+        <field name="PART NUMBER">6209</field>
+        <field name="VENDOR">MP020A-5GS</field>
+        <field name="VENDOR PN">MP020A-5GS</field>
+      </fields>
+      <libsource lib="Power_Supply L072-altium-import" part="root_0_MP020A-5GS" description="MP020A-5GS"/>
+      <property name="PART NUMBER" value="6209"/>
+      <property name="VENDOR" value="MP020A-5GS"/>
+      <property name="VENDOR PN" value="MP020A-5GS"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Power_Supply L072.kicad_sch"/>
+      <property name="ki_description" value="MP020A-5GS"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2421703d-674d-4b19-b40f-50c1d564ca27</tstamps>
+    </comp>
+    <comp ref="FU1">
+      <value>Предохранитель самовосстанвливающийся RXE-185</value>
+      <footprint>FRN01W</footprint>
+      <fields>
+        <field name="ALTIUM_VALUE">FRN01WK0330A10</field>
+        <field name="COMPONENTLINK1DESCRIPTION">Параметры</field>
+        <field name="COMPONENTLINK1URL">ftp://192.168.1.200/Datasheets/Raychem/Polycwitch/RXE-300.pdf</field>
+        <field name="COMPONENTLINK2DESCRIPTION">Сайт производителя</field>
+        <field name="ID">i60026C5082238000015</field>
+        <field name="KEY IMBASE">i60026C5082238000015</field>
+        <field name="MANUFACTURER">Raychem</field>
+        <field name="MANUFACTURERPARTNUMBER">RXE-185</field>
+        <field name="PART NUMBER">FRN01WK0330A10</field>
+        <field name="PN">FRN01WK0330A10</field>
+        <field name="ПРИМЕЧАНИЕ">*</field>
+      </fields>
+      <libsource lib="Power_Supply L072-altium-import" part="root_1_Fuse" description=""/>
+      <property name="ALTIUM_VALUE" value="FRN01WK0330A10"/>
+      <property name="ID" value="i60026C5082238000015"/>
+      <property name="ПРИМЕЧАНИЕ" value="*"/>
+      <property name="MANUFACTURERPARTNUMBER" value="RXE-185"/>
+      <property name="MANUFACTURER" value="Raychem"/>
+      <property name="COMPONENTLINK1DESCRIPTION" value="Параметры"/>
+      <property name="COMPONENTLINK1URL" value="ftp://192.168.1.200/Datasheets/Raychem/Polycwitch/RXE-300.pdf"/>
+      <property name="COMPONENTLINK2DESCRIPTION" value="Сайт производителя"/>
+      <property name="KEY IMBASE" value="i60026C5082238000015"/>
+      <property name="PART NUMBER" value="FRN01WK0330A10"/>
+      <property name="PN" value="FRN01WK0330A10"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Power_Supply L072.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>083307dc-3ebc-4283-aa95-c283bc8e5ba1</tstamps>
+    </comp>
+    <comp ref="K1">
+      <value>RM12-3011-35-1024</value>
+      <footprint>RM12</footprint>
+      <fields>
+        <field name="VENDOR">Relpol</field>
+        <field name="VENDOR PN">RM12-3011-35-1024</field>
+      </fields>
+      <libsource lib="Power_Supply L072-altium-import" part="root_0_RM699B" description="RM699B"/>
+      <property name="VENDOR" value="Relpol"/>
+      <property name="PART NUMBER" value=""/>
+      <property name="VENDOR PN" value="RM12-3011-35-1024"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Power_Supply L072.kicad_sch"/>
+      <property name="ki_description" value="RM699B"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6cfe71cf-fbd5-4de3-9216-09401390a872</tstamps>
+    </comp>
+    <comp ref="L1">
+      <value>Дроссель B82732-W2601-B030</value>
+      <footprint>TLF9UAH103WR23K1</footprint>
+      <fields>
+        <field name="ALTIUM_VALUE">10мГн</field>
+        <field name="COMPONENTLINK1DESCRIPTION">Параметры дросселя</field>
+        <field name="COMPONENTLINK2DESCRIPTION">Сайт производителя</field>
+        <field name="COMPONENTLINK2URL">http://www.epcos.com/</field>
+        <field name="ID">i60026C5082304000016</field>
+        <field name="KEY IMBASE">i60026C5082304000016</field>
+        <field name="MANUFACTURERPARTNUMBER">TLF9UAH103WR23K1</field>
+        <field name="ПРИМЕЧАНИЕ">*</field>
+      </fields>
+      <libsource lib="Power_Supply L072-altium-import" part="root_2_mirrored_Ind_1,4/2,3" description=""/>
+      <property name="MANUFACTURERPARTNUMBER" value="TLF9UAH103WR23K1"/>
+      <property name="ID" value="i60026C5082304000016"/>
+      <property name="ПРИМЕЧАНИЕ" value="*"/>
+      <property name="ALTIUM_VALUE" value="10мГн"/>
+      <property name="POWER/VOLTAGE" value=""/>
+      <property name="MANUFACTURER" value=""/>
+      <property name="COMPONENTLINK1DESCRIPTION" value="Параметры дросселя"/>
+      <property name="COMPONENTLINK2DESCRIPTION" value="Сайт производителя"/>
+      <property name="COMPONENTLINK2URL" value="http://www.epcos.com/"/>
+      <property name="KEY IMBASE" value="i60026C5082304000016"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Power_Supply L072.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e834bde8-5be7-4573-a4f1-dbf67ef41649</tstamps>
+    </comp>
+    <comp ref="L3">
+      <value>CW57-332K</value>
+      <footprint>CW57</footprint>
+      <fields>
+        <field name="ALTIUM_VALUE">3300u</field>
+        <field name="PART NUMBER">5707</field>
+        <field name="VENDOR">CEC COILS ELECTRONIC</field>
+        <field name="VENDOR PN">CW57-332K</field>
+      </fields>
+      <libsource lib="Power_Supply L072-altium-import" part="root_0_CW57-332K" description="3300 µHn 0.07A"/>
+      <property name="PART NUMBER" value="5707"/>
+      <property name="VENDOR PN" value="CW57-332K"/>
+      <property name="VENDOR" value="CEC COILS ELECTRONIC"/>
+      <property name="ALTIUM_VALUE" value="3300u"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Power_Supply L072.kicad_sch"/>
+      <property name="ki_description" value="3300 µHn 0.07A"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cca3426d-e3d0-4315-8b23-16d7634e8f3b</tstamps>
+    </comp>
+    <comp ref="L4">
+      <value>Дроссель B82732-W2601-B030</value>
+      <footprint>TLF9UAH103WR23K1</footprint>
+      <fields>
+        <field name="ALTIUM_VALUE">10мГн</field>
+        <field name="COMPONENTLINK1DESCRIPTION">Параметры дросселя</field>
+        <field name="COMPONENTLINK2DESCRIPTION">Сайт производителя</field>
+        <field name="COMPONENTLINK2URL">http://www.epcos.com/</field>
+        <field name="ID">i60026C5082304000016</field>
+        <field name="KEY IMBASE">i60026C5082304000016</field>
+        <field name="MANUFACTURERPARTNUMBER">TLF9UAH103WR23K1</field>
+        <field name="ПРИМЕЧАНИЕ">*</field>
+      </fields>
+      <libsource lib="Power_Supply L072-altium-import" part="root_0_Ind_1,4/2,3" description=""/>
+      <property name="MANUFACTURERPARTNUMBER" value="TLF9UAH103WR23K1"/>
+      <property name="ID" value="i60026C5082304000016"/>
+      <property name="ПРИМЕЧАНИЕ" value="*"/>
+      <property name="ALTIUM_VALUE" value="10мГн"/>
+      <property name="POWER/VOLTAGE" value=""/>
+      <property name="MANUFACTURER" value=""/>
+      <property name="COMPONENTLINK1DESCRIPTION" value="Параметры дросселя"/>
+      <property name="COMPONENTLINK2DESCRIPTION" value="Сайт производителя"/>
+      <property name="COMPONENTLINK2URL" value="http://www.epcos.com/"/>
+      <property name="KEY IMBASE" value="i60026C5082304000016"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Power_Supply L072.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bd5cbf19-2486-4118-904d-50e03e29720e</tstamps>
+    </comp>
+    <comp ref="L6">
+      <value>CW57-332K</value>
+      <footprint>L0504</footprint>
+      <fields>
+        <field name="ALTIUM_VALUE">120u</field>
+        <field name="PN">DLG-0504-121</field>
+      </fields>
+      <libsource lib="Power_Supply L072-altium-import" part="root_0_CW57-332K" description="3300 µHn 0.07A"/>
+      <property name="PART NUMBER" value=""/>
+      <property name="PN" value="DLG-0504-121"/>
+      <property name="VENDOR" value=""/>
+      <property name="ALTIUM_VALUE" value="120u"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Power_Supply L072.kicad_sch"/>
+      <property name="ki_description" value="3300 µHn 0.07A"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>22f95355-91f4-44bb-854d-aa251650923e</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>0603 4.75K 1%</value>
+      <footprint>0603</footprint>
+      <fields>
+        <field name="ALTIUM_VALUE">4.75K</field>
+        <field name="PART NUMBER">5775</field>
+        <field name="VENDOR">Vishay</field>
+        <field name="VENDOR PN">CRCW0603-4751-FRT1</field>
+      </fields>
+      <libsource lib="Power_Supply L072-altium-import" part="root_1_CRCW0603-4751-FRT1" description="0603 4.75K 1%"/>
+      <property name="PART NUMBER" value="5775"/>
+      <property name="VENDOR PN" value="CRCW0603-4751-FRT1"/>
+      <property name="VENDOR" value="Vishay"/>
+      <property name="ALTIUM_VALUE" value="4.75K"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Power_Supply L072.kicad_sch"/>
+      <property name="ki_description" value="0603 4.75K 1%"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>38750401-1d07-47f4-8eab-3478d15b594a</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>SMD 1206-22 кОм±5%</value>
+      <footprint>1206</footprint>
+      <fields>
+        <field name="ALTIUM_VALUE">0.12</field>
+        <field name="COMPONENTLINK1DESCRIPTION">Параметры резистора</field>
+        <field name="COMPONENTLINK1URL">ftp://192.168.1.200/Datasheets/Royal Ohm/Resistors/chip_resistors.pdf</field>
+        <field name="ID">i60026C508226A000016</field>
+        <field name="KEY IMBASE">i60026C508226A000016</field>
+        <field name="PN">KDV12DR120ET</field>
+        <field name="POWER/VOLTAGE">0,25Вт</field>
+        <field name="REM">SMD</field>
+        <field name="TOLERANCE">±0.5%</field>
+        <field name="КОРПУС">1206</field>
+        <field name="ПРИМЕЧАНИЕ">*</field>
+      </fields>
+      <libsource lib="Power_Supply L072-altium-import" part="root_0_Res" description=""/>
+      <property name="ALTIUM_VALUE" value="0.12"/>
+      <property name="ID" value="i60026C508226A000016"/>
+      <property name="ПРИМЕЧАНИЕ" value="*"/>
+      <property name="REM" value="SMD"/>
+      <property name="КОРПУС" value="1206"/>
+      <property name="TOLERANCE" value="±0.5%"/>
+      <property name="POWER/VOLTAGE" value="0,25Вт"/>
+      <property name="COMPONENTLINK1DESCRIPTION" value="Параметры резистора"/>
+      <property name="COMPONENTLINK1URL" value="ftp://192.168.1.200/Datasheets/Royal Ohm/Resistors/chip_resistors.pdf"/>
+      <property name="KEY IMBASE" value="i60026C508226A000016"/>
+      <property name="PN" value="KDV12DR120ET"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Power_Supply L072.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d80c0e9d-c576-4250-8257-713eda423a80</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>1206 4.75K</value>
+      <footprint>1206</footprint>
+      <fields>
+        <field name="ALTIUM_VALUE">10К</field>
+        <field name="PART NUMBER">1543</field>
+      </fields>
+      <libsource lib="Power_Supply L072-altium-import" part="root_0_NRCV12F4751TR" description="1206 4.75K"/>
+      <property name="VENDOR PN" value=""/>
+      <property name="VENDOR" value=""/>
+      <property name="PART NUMBER" value="1543"/>
+      <property name="ALTIUM_VALUE" value="10К"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Power_Supply L072.kicad_sch"/>
+      <property name="ki_description" value="1206 4.75K"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>25675001-1aa4-4d98-a044-c1b5357f362c</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>220K 2W</value>
+      <footprint>RSS2WH</footprint>
+      <fields>
+        <field name="ALTIUM_VALUE">220K</field>
+        <field name="MANUFACTURER">CINETECH</field>
+        <field name="MANUFACTURER PN">RSS-2W224JB</field>
+        <field name="PART NUMBER">6033</field>
+      </fields>
+      <libsource lib="Power_Supply L072-altium-import" part="root_0_RSS-2W224JB" description="220K 2W"/>
+      <property name="PART NUMBER" value="6033"/>
+      <property name="MANUFACTURER PN" value="RSS-2W224JB"/>
+      <property name="MANUFACTURER" value="CINETECH"/>
+      <property name="ALTIUM_VALUE" value="220K"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Power_Supply L072.kicad_sch"/>
+      <property name="ki_description" value="220K 2W"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>174bbf5d-5bf9-42fd-be51-ac62a09ad9f3</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>0603 10 1%</value>
+      <footprint>0603</footprint>
+      <fields>
+        <field name="ALTIUM_VALUE">10</field>
+        <field name="PART NUMBER">5239</field>
+        <field name="VENDOR">NIC</field>
+        <field name="VENDOR PN">NRC06F10R0TR</field>
+      </fields>
+      <libsource lib="Power_Supply L072-altium-import" part="root_0_NRC06F10R0TR" description="0603 10 1%"/>
+      <property name="PART NUMBER" value="5239"/>
+      <property name="VENDOR PN" value="NRC06F10R0TR"/>
+      <property name="VENDOR" value="NIC"/>
+      <property name="ALTIUM_VALUE" value="10"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Power_Supply L072.kicad_sch"/>
+      <property name="ki_description" value="0603 10 1%"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a6f75a3c-02bb-436b-a418-755e6751310a</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>120K 0.5W</value>
+      <footprint>1206</footprint>
+      <fields>
+        <field name="ALTIUM_VALUE">150K</field>
+        <field name="PART NUMBER">6212</field>
+        <field name="PDF">sfr16s25.pdf</field>
+        <field name="VENDOR">Vishay</field>
+        <field name="VENDOR PN">RC1206FR-07150KL</field>
+      </fields>
+      <libsource lib="Power_Supply L072-altium-import" part="root_1_SFR16S0001203JA500" description="120K 0.5W"/>
+      <property name="VENDOR" value="Vishay"/>
+      <property name="VENDOR PN" value="RC1206FR-07150KL"/>
+      <property name="PART NUMBER" value="6212"/>
+      <property name="PDF" value="sfr16s25.pdf"/>
+      <property name="ALTIUM_VALUE" value="150K"/>
+      <property name="KT" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Power_Supply L072.kicad_sch"/>
+      <property name="ki_description" value="120K 0.5W"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>35b408c6-b08d-4602-9ab3-d217a7509304</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>120K 0.5W</value>
+      <footprint>1206</footprint>
+      <fields>
+        <field name="ALTIUM_VALUE">300</field>
+        <field name="PART NUMBER">6210</field>
+        <field name="PDF">sfr16s25.pdf</field>
+        <field name="VENDOR">Vishay</field>
+        <field name="VENDOR PN">RC1206FR-07301RL</field>
+      </fields>
+      <libsource lib="Power_Supply L072-altium-import" part="root_1_SFR16S0001203JA500" description="120K 0.5W"/>
+      <property name="VENDOR" value="Vishay"/>
+      <property name="VENDOR PN" value="RC1206FR-07301RL"/>
+      <property name="PART NUMBER" value="6210"/>
+      <property name="PDF" value="sfr16s25.pdf"/>
+      <property name="ALTIUM_VALUE" value="300"/>
+      <property name="KT" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Power_Supply L072.kicad_sch"/>
+      <property name="ki_description" value="120K 0.5W"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2a34cfe4-1af4-4491-8469-eddf33b2bd8f</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>0603 200K 1%</value>
+      <footprint>0603</footprint>
+      <fields>
+        <field name="ALTIUM_VALUE">200K</field>
+        <field name="MANUFACTURER">NIC</field>
+        <field name="PART NUMBER">5852</field>
+        <field name="PN">NRC06F2003TR</field>
+      </fields>
+      <libsource lib="Power_Supply L072-altium-import" part="root_3_NRC06F2003TR" description="0603 200K 1%"/>
+      <property name="PART NUMBER" value="5852"/>
+      <property name="PN" value="NRC06F2003TR"/>
+      <property name="MANUFACTURER" value="NIC"/>
+      <property name="ALTIUM_VALUE" value="200K"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Power_Supply L072.kicad_sch"/>
+      <property name="ki_description" value="0603 200K 1%"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5dc3abfc-2ead-48cc-b8ca-a85121e8323b</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>0603 43.2K 1%</value>
+      <footprint>0603</footprint>
+      <fields>
+        <field name="ALTIUM_VALUE">28.7K</field>
+        <field name="PART NUMBER">6227</field>
+        <field name="VENDOR">Vishay</field>
+      </fields>
+      <libsource lib="Power_Supply L072-altium-import" part="root_1_CRCW060343K2FKTA" description="0603 43.2K 1%"/>
+      <property name="PART NUMBER" value="6227"/>
+      <property name="VENDOR PN" value=""/>
+      <property name="VENDOR" value="Vishay"/>
+      <property name="ALTIUM_VALUE" value="28.7K"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Power_Supply L072.kicad_sch"/>
+      <property name="ki_description" value="0603 43.2K 1%"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b72c8a1c-ba8b-4502-b3c6-11598d023931</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>0603 43.2K 1%</value>
+      <footprint>0603</footprint>
+      <fields>
+        <field name="ALTIUM_VALUE">13K</field>
+        <field name="PART NUMBER">6194</field>
+        <field name="VENDOR">Vishay</field>
+        <field name="VENDOR PN">CRCW060313K0FKTA</field>
+      </fields>
+      <libsource lib="Power_Supply L072-altium-import" part="root_1_CRCW060343K2FKTA" description="0603 43.2K 1%"/>
+      <property name="PART NUMBER" value="6194"/>
+      <property name="VENDOR PN" value="CRCW060313K0FKTA"/>
+      <property name="VENDOR" value="Vishay"/>
+      <property name="ALTIUM_VALUE" value="13K"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Power_Supply L072.kicad_sch"/>
+      <property name="ki_description" value="0603 43.2K 1%"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2e6ace15-0d66-4345-a692-a4fc35411ae1</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>0603 4.75K 1%</value>
+      <footprint>0603</footprint>
+      <fields>
+        <field name="ALTIUM_VALUE">23.2K</field>
+        <field name="PART NUMBER">3581</field>
+        <field name="VENDOR">Vishay</field>
+      </fields>
+      <libsource lib="Power_Supply L072-altium-import" part="root_3_CRCW0603-4751-FRT1" description="0603 4.75K 1%"/>
+      <property name="PART NUMBER" value="3581"/>
+      <property name="VENDOR PN" value=""/>
+      <property name="VENDOR" value="Vishay"/>
+      <property name="ALTIUM_VALUE" value="23.2K"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Power_Supply L072.kicad_sch"/>
+      <property name="ki_description" value="0603 4.75K 1%"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>32cfa4bc-c042-47a9-8234-ad7ed73f8dd3</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>SMD 1206-100 Ом±1%</value>
+      <footprint>1206</footprint>
+      <fields>
+        <field name="ALTIUM_VALUE">20</field>
+        <field name="COMPONENTLINK1DESCRIPTION">Параметры резистора</field>
+        <field name="COMPONENTLINK1URL">ftp://192.168.1.200/Datasheets/Royal Ohm/Resistors/chip_resistors.pdf</field>
+        <field name="ID">i60026C508226A00003A</field>
+        <field name="KEY IMBASE">i60026C508226A00003A</field>
+        <field name="PART NUMBER">6224</field>
+        <field name="POWER/VOLTAGE">0,25Вт</field>
+        <field name="REM">SMD</field>
+        <field name="TOLERANCE">±1%</field>
+        <field name="КОРПУС">1206</field>
+        <field name="ПРИМЕЧАНИЕ">*</field>
+      </fields>
+      <libsource lib="Power_Supply L072-altium-import" part="root_1_Res" description=""/>
+      <property name="ALTIUM_VALUE" value="20"/>
+      <property name="ID" value="i60026C508226A00003A"/>
+      <property name="ПРИМЕЧАНИЕ" value="*"/>
+      <property name="REM" value="SMD"/>
+      <property name="КОРПУС" value="1206"/>
+      <property name="TOLERANCE" value="±1%"/>
+      <property name="POWER/VOLTAGE" value="0,25Вт"/>
+      <property name="COMPONENTLINK1DESCRIPTION" value="Параметры резистора"/>
+      <property name="COMPONENTLINK1URL" value="ftp://192.168.1.200/Datasheets/Royal Ohm/Resistors/chip_resistors.pdf"/>
+      <property name="KEY IMBASE" value="i60026C508226A00003A"/>
+      <property name="PART NUMBER" value="6224"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Power_Supply L072.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5243eb40-de42-4dd9-b6af-c3ed4250fab1</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>SMD 1206-100 Ом±1%</value>
+      <footprint>1206</footprint>
+      <fields>
+        <field name="ALTIUM_VALUE">20</field>
+        <field name="COMPONENTLINK1DESCRIPTION">Параметры резистора</field>
+        <field name="COMPONENTLINK1URL">ftp://192.168.1.200/Datasheets/Royal Ohm/Resistors/chip_resistors.pdf</field>
+        <field name="ID">i60026C508226A00003A</field>
+        <field name="KEY IMBASE">i60026C508226A00003A</field>
+        <field name="PART NUMBER">6224</field>
+        <field name="POWER/VOLTAGE">0,25Вт</field>
+        <field name="REM">SMD</field>
+        <field name="TOLERANCE">±1%</field>
+        <field name="КОРПУС">1206</field>
+        <field name="ПРИМЕЧАНИЕ">*</field>
+      </fields>
+      <libsource lib="Power_Supply L072-altium-import" part="root_1_Res" description=""/>
+      <property name="ALTIUM_VALUE" value="20"/>
+      <property name="ID" value="i60026C508226A00003A"/>
+      <property name="ПРИМЕЧАНИЕ" value="*"/>
+      <property name="REM" value="SMD"/>
+      <property name="КОРПУС" value="1206"/>
+      <property name="TOLERANCE" value="±1%"/>
+      <property name="POWER/VOLTAGE" value="0,25Вт"/>
+      <property name="COMPONENTLINK1DESCRIPTION" value="Параметры резистора"/>
+      <property name="COMPONENTLINK1URL" value="ftp://192.168.1.200/Datasheets/Royal Ohm/Resistors/chip_resistors.pdf"/>
+      <property name="KEY IMBASE" value="i60026C508226A00003A"/>
+      <property name="PART NUMBER" value="6224"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Power_Supply L072.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>327d0454-ac7a-4a63-b821-85d3657a8869</tstamps>
+    </comp>
+    <comp ref="R14">
+      <value>1206 4.75K</value>
+      <footprint>1206</footprint>
+      <fields>
+        <field name="ALTIUM_VALUE">10К</field>
+        <field name="PART NUMBER">1543</field>
+      </fields>
+      <libsource lib="Power_Supply L072-altium-import" part="root_0_NRCV12F4751TR" description="1206 4.75K"/>
+      <property name="VENDOR PN" value=""/>
+      <property name="VENDOR" value=""/>
+      <property name="PART NUMBER" value="1543"/>
+      <property name="ALTIUM_VALUE" value="10К"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Power_Supply L072.kicad_sch"/>
+      <property name="ki_description" value="1206 4.75K"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2ef4f72e-60e1-4c54-90c5-ac9839c5ce33</tstamps>
+    </comp>
+    <comp ref="R15">
+      <value>0603 4.75K 1%</value>
+      <footprint>0603</footprint>
+      <fields>
+        <field name="ALTIUM_VALUE">4.75K</field>
+        <field name="PART NUMBER">5775</field>
+        <field name="VENDOR">Vishay</field>
+        <field name="VENDOR PN">CRCW0603-4751-FRT1</field>
+      </fields>
+      <libsource lib="Power_Supply L072-altium-import" part="root_1_CRCW0603-4751-FRT1" description="0603 4.75K 1%"/>
+      <property name="PART NUMBER" value="5775"/>
+      <property name="VENDOR PN" value="CRCW0603-4751-FRT1"/>
+      <property name="VENDOR" value="Vishay"/>
+      <property name="ALTIUM_VALUE" value="4.75K"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Power_Supply L072.kicad_sch"/>
+      <property name="ki_description" value="0603 4.75K 1%"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d7abd801-0884-40e9-ad3b-4fbcafcf9655</tstamps>
+    </comp>
+    <comp ref="R16">
+      <value>0603 4.75K 1%</value>
+      <footprint>0603</footprint>
+      <fields>
+        <field name="ALTIUM_VALUE">27.4K</field>
+        <field name="PART NUMBER">5854</field>
+        <field name="VENDOR">Vishay</field>
+      </fields>
+      <libsource lib="Power_Supply L072-altium-import" part="root_1_CRCW0603-4751-FRT1" description="0603 4.75K 1%"/>
+      <property name="PART NUMBER" value="5854"/>
+      <property name="VENDOR PN" value=""/>
+      <property name="VENDOR" value="Vishay"/>
+      <property name="ALTIUM_VALUE" value="27.4K"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Power_Supply L072.kicad_sch"/>
+      <property name="ki_description" value="0603 4.75K 1%"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>53c44218-96ed-4b1c-9fc6-ffedc6b6f487</tstamps>
+    </comp>
+    <comp ref="RU1">
+      <value>V10E320P</value>
+      <footprint>V10E320P</footprint>
+      <fields>
+        <field name="ALTIUM_VALUE">*</field>
+        <field name="DES">Варистор UltraMOV 320В AC 420В DC 3500А -55+85C 10Dх5.6Lхd16Hмм</field>
+        <field name="KT">160173</field>
+        <field name="PART NUMBER">6099</field>
+        <field name="PN">V10E320P</field>
+        <field name="SMD">0</field>
+      </fields>
+      <libsource lib="Power_Supply L072-altium-import" part="root_1_VAR10-130 LYING" description="VAR10-130 LYING"/>
+      <property name="ALTIUM_VALUE" value="*"/>
+      <property name="PART NUMBER" value="6099"/>
+      <property name="KT" value="160173"/>
+      <property name="PN" value="V10E320P"/>
+      <property name="SMD" value="0"/>
+      <property name="DES" value="Варистор UltraMOV 320В AC 420В DC 3500А -55+85C 10Dх5.6Lхd16Hмм"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Power_Supply L072.kicad_sch"/>
+      <property name="ki_description" value="VAR10-130 LYING"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6afc2ade-31ba-4ce7-83d2-1f794c59db47</tstamps>
+    </comp>
+    <comp ref="T1">
+      <value>TS7W-4.32-14.61-8.63</value>
+      <footprint>TS5W</footprint>
+      <fields>
+        <field name="MANUFACTURER PN">TS5W-18.4-18.4-9.2</field>
+        <field name="PART NUMBER">6216</field>
+      </fields>
+      <libsource lib="Power_Supply L072-altium-import" part="root_0_TS5W-18.4-18.4-9.2" description="TS5W-18.4-18.4-9.2"/>
+      <property name="PART NUMBER" value="6216"/>
+      <property name="MANUFACTURER PN" value="TS5W-18.4-18.4-9.2"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Power_Supply L072.kicad_sch"/>
+      <property name="ki_description" value="TS5W-18.4-18.4-9.2"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d7caebc2-4ac2-4327-9224-f28e231d99cb</tstamps>
+    </comp>
+    <comp ref="TP1">
+      <value>Тестовая точка</value>
+      <footprint>TP0.5</footprint>
+      <fields>
+        <field name="ID">i60026C508261C000003</field>
+        <field name="KEY IMBASE">i60026C508261C000003</field>
+        <field name="ПРИМЕЧАНИЕ">Отв. на плате</field>
+      </fields>
+      <libsource lib="Power_Supply L072-altium-import" part="root_1_TestPointHole" description="Тестовая точка в виде отверстия на плате D=0.8мм"/>
+      <property name="ID" value="i60026C508261C000003"/>
+      <property name="ПРИМЕЧАНИЕ" value="Отв. на плате"/>
+      <property name="KEY IMBASE" value="i60026C508261C000003"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Power_Supply L072.kicad_sch"/>
+      <property name="ki_description" value="Тестовая точка в виде отверстия на плате D=0.8мм"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>79d48de2-e83f-4d08-baf8-8cf780dd35b1</tstamps>
+    </comp>
+    <comp ref="TP2">
+      <value>Тестовая точка</value>
+      <footprint>TP0.5</footprint>
+      <fields>
+        <field name="ID">i60026C508261C000003</field>
+        <field name="KEY IMBASE">i60026C508261C000003</field>
+        <field name="ПРИМЕЧАНИЕ">Отв. на плате</field>
+      </fields>
+      <libsource lib="Power_Supply L072-altium-import" part="root_1_TestPointHole" description="Тестовая точка в виде отверстия на плате D=0.8мм"/>
+      <property name="ID" value="i60026C508261C000003"/>
+      <property name="ПРИМЕЧАНИЕ" value="Отв. на плате"/>
+      <property name="KEY IMBASE" value="i60026C508261C000003"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Power_Supply L072.kicad_sch"/>
+      <property name="ki_description" value="Тестовая точка в виде отверстия на плате D=0.8мм"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6d92093f-b086-4fcc-938e-c80949cbba11</tstamps>
+    </comp>
+    <comp ref="TP3">
+      <value>Тестовая точка</value>
+      <footprint>TP0.5</footprint>
+      <fields>
+        <field name="ID">i60026C508261C000003</field>
+        <field name="KEY IMBASE">i60026C508261C000003</field>
+        <field name="ПРИМЕЧАНИЕ">Отв. на плате</field>
+      </fields>
+      <libsource lib="Power_Supply L072-altium-import" part="root_1_TestPointHole" description="Тестовая точка в виде отверстия на плате D=0.8мм"/>
+      <property name="ID" value="i60026C508261C000003"/>
+      <property name="ПРИМЕЧАНИЕ" value="Отв. на плате"/>
+      <property name="KEY IMBASE" value="i60026C508261C000003"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Power_Supply L072.kicad_sch"/>
+      <property name="ki_description" value="Тестовая точка в виде отверстия на плате D=0.8мм"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0ae17760-9581-4380-9d56-3ee28d5d45d0</tstamps>
+    </comp>
+    <comp ref="TP4">
+      <value>Тестовая точка</value>
+      <footprint>TP0.5</footprint>
+      <fields>
+        <field name="ID">i60026C508261C000003</field>
+        <field name="KEY IMBASE">i60026C508261C000003</field>
+        <field name="ПРИМЕЧАНИЕ">Отв. на плате</field>
+      </fields>
+      <libsource lib="Power_Supply L072-altium-import" part="root_1_TestPointHole" description="Тестовая точка в виде отверстия на плате D=0.8мм"/>
+      <property name="ID" value="i60026C508261C000003"/>
+      <property name="ПРИМЕЧАНИЕ" value="Отв. на плате"/>
+      <property name="KEY IMBASE" value="i60026C508261C000003"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Power_Supply L072.kicad_sch"/>
+      <property name="ki_description" value="Тестовая точка в виде отверстия на плате D=0.8мм"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f0b2fb7f-1028-4c3d-a8fb-f08083accd4b</tstamps>
+    </comp>
+    <comp ref="TP5">
+      <value>Тестовая точка</value>
+      <footprint>TP0.5</footprint>
+      <fields>
+        <field name="ID">i60026C508261C000003</field>
+        <field name="KEY IMBASE">i60026C508261C000003</field>
+        <field name="ПРИМЕЧАНИЕ">Отв. на плате</field>
+      </fields>
+      <libsource lib="Power_Supply L072-altium-import" part="root_1_TestPointHole" description="Тестовая точка в виде отверстия на плате D=0.8мм"/>
+      <property name="ID" value="i60026C508261C000003"/>
+      <property name="ПРИМЕЧАНИЕ" value="Отв. на плате"/>
+      <property name="KEY IMBASE" value="i60026C508261C000003"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Power_Supply L072.kicad_sch"/>
+      <property name="ki_description" value="Тестовая точка в виде отверстия на плате D=0.8мм"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f856603a-c0af-4ef2-9028-859d4c958ecb</tstamps>
+    </comp>
+    <comp ref="TP6">
+      <value>Тестовая точка</value>
+      <footprint>TP0.5</footprint>
+      <fields>
+        <field name="ID">i60026C508261C000003</field>
+        <field name="KEY IMBASE">i60026C508261C000003</field>
+        <field name="ПРИМЕЧАНИЕ">Отв. на плате</field>
+      </fields>
+      <libsource lib="Power_Supply L072-altium-import" part="root_1_TestPointHole" description="Тестовая точка в виде отверстия на плате D=0.8мм"/>
+      <property name="ID" value="i60026C508261C000003"/>
+      <property name="ПРИМЕЧАНИЕ" value="Отв. на плате"/>
+      <property name="KEY IMBASE" value="i60026C508261C000003"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Power_Supply L072.kicad_sch"/>
+      <property name="ki_description" value="Тестовая точка в виде отверстия на плате D=0.8мм"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7435890d-0160-43c9-8758-4f9290167dbf</tstamps>
+    </comp>
+    <comp ref="VD1">
+      <value>ES1JFL</value>
+      <footprint>SOD123</footprint>
+      <fields>
+        <field name="PART NUMBER">5662</field>
+        <field name="VENDOR">Fairchild</field>
+        <field name="VENDOR PN">ES1JFL</field>
+      </fields>
+      <libsource lib="Power_Supply L072-altium-import" part="root_2_ES1JFL" description="ES1JFL"/>
+      <property name="VENDOR" value="Fairchild"/>
+      <property name="PART NUMBER" value="5662"/>
+      <property name="VENDOR PN" value="ES1JFL"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Power_Supply L072.kicad_sch"/>
+      <property name="ki_description" value="ES1JFL"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>21bd21e5-5ab8-4d93-b6c0-e5c8056500f0</tstamps>
+    </comp>
+    <comp ref="VD2">
+      <value>BAV3004W</value>
+      <footprint>SOD123</footprint>
+      <fields>
+        <field name="PART NUMBER">5192</field>
+        <field name="VENDOR">Diodes Inc</field>
+        <field name="VENDOR PN">BAV3004W</field>
+      </fields>
+      <libsource lib="Power_Supply L072-altium-import" part="root_2_BAV3004W" description="BAV3004W"/>
+      <property name="PART NUMBER" value="5192"/>
+      <property name="VENDOR PN" value="BAV3004W"/>
+      <property name="VENDOR" value="Diodes Inc"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Power_Supply L072.kicad_sch"/>
+      <property name="ki_description" value="BAV3004W"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0aee71f6-b724-4115-82e2-1d9bc1c5ebed</tstamps>
+    </comp>
+    <comp ref="VD3">
+      <value>ES1JFL</value>
+      <footprint>SOD123</footprint>
+      <fields>
+        <field name="PART NUMBER">5662</field>
+        <field name="VENDOR">Fairchild</field>
+        <field name="VENDOR PN">ES1JFL</field>
+      </fields>
+      <libsource lib="Power_Supply L072-altium-import" part="root_1_ES1JFL" description="ES1JFL"/>
+      <property name="VENDOR" value="Fairchild"/>
+      <property name="PART NUMBER" value="5662"/>
+      <property name="VENDOR PN" value="ES1JFL"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Power_Supply L072.kicad_sch"/>
+      <property name="ki_description" value="ES1JFL"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dd638985-3827-4a72-abad-b44ab74535e2</tstamps>
+    </comp>
+    <comp ref="VD4">
+      <value>Диод SS110</value>
+      <footprint>SMAE</footprint>
+      <fields>
+        <field name="COMPONENTLINK1DESCRIPTION">Параметры</field>
+        <field name="COMPONENTLINK1URL">ftp://192.168.1.200/Datasheets/Fairchild Semiconductor/Discrets/Diodes/SS34.pdf</field>
+        <field name="COMPONENTLINK2DESCRIPTION">Сайт производителя</field>
+        <field name="COMPONENTLINK2URL">http://www.fairchildsemi.com</field>
+        <field name="ID">i60026C50823AF000002</field>
+        <field name="KEY IMBASE">i60026C50823AF000002</field>
+        <field name="MANUFACTURER">Fairchild Semiconductor</field>
+        <field name="MANUFACTURERPARTNUMBER">SS110E-TP</field>
+        <field name="PART NUMBER">6215</field>
+        <field name="REM">SMD</field>
+        <field name="КОРПУС">SMC</field>
+        <field name="ПРИМЕЧАНИЕ">*</field>
+      </fields>
+      <libsource lib="Power_Supply L072-altium-import" part="root_3_Diode_Shottky" description="Диод Шоттки 40V 3A"/>
+      <property name="MANUFACTURERPARTNUMBER" value="SS110E-TP"/>
+      <property name="ID" value="i60026C50823AF000002"/>
+      <property name="ПРИМЕЧАНИЕ" value="*"/>
+      <property name="REM" value="SMD"/>
+      <property name="КОРПУС" value="SMC"/>
+      <property name="MANUFACTURER" value="Fairchild Semiconductor"/>
+      <property name="COMPONENTLINK1DESCRIPTION" value="Параметры"/>
+      <property name="COMPONENTLINK1URL" value="ftp://192.168.1.200/Datasheets/Fairchild Semiconductor/Discrets/Diodes/SS34.pdf"/>
+      <property name="COMPONENTLINK2DESCRIPTION" value="Сайт производителя"/>
+      <property name="COMPONENTLINK2URL" value="http://www.fairchildsemi.com"/>
+      <property name="KEY IMBASE" value="i60026C50823AF000002"/>
+      <property name="PART NUMBER" value="6215"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Power_Supply L072.kicad_sch"/>
+      <property name="ki_description" value="Диод Шоттки 40V 3A"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a3b6662e-52e9-4020-b583-c8f79fee0227</tstamps>
+    </comp>
+    <comp ref="VD5">
+      <value>ES1JFL</value>
+      <footprint>SOD123</footprint>
+      <fields>
+        <field name="PART NUMBER">5662</field>
+        <field name="VENDOR">Fairchild</field>
+        <field name="VENDOR PN">ES1JFL</field>
+      </fields>
+      <libsource lib="Power_Supply L072-altium-import" part="root_0_ES1JFL" description="ES1JFL"/>
+      <property name="VENDOR" value="Fairchild"/>
+      <property name="PART NUMBER" value="5662"/>
+      <property name="VENDOR PN" value="ES1JFL"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Power_Supply L072.kicad_sch"/>
+      <property name="ki_description" value="ES1JFL"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>738ed89c-4c16-44e4-9a45-2bbc98328e72</tstamps>
+    </comp>
+    <comp ref="VD6">
+      <value>BAT54S</value>
+      <footprint>SOT23_3</footprint>
+      <fields>
+        <field name="PART NUMBER">25</field>
+        <field name="VENDOR">Fairchild</field>
+        <field name="VENDOR PN">BAT54S</field>
+      </fields>
+      <libsource lib="Power_Supply L072-altium-import" part="root_0_BAT54S" description="BAT54S"/>
+      <property name="PART NUMBER" value="25"/>
+      <property name="VENDOR PN" value="BAT54S"/>
+      <property name="VENDOR" value="Fairchild"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Power_Supply L072.kicad_sch"/>
+      <property name="ki_description" value="BAT54S"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>165a82f9-5f57-49a0-b724-3d59324b2789</tstamps>
+    </comp>
+    <comp ref="VD13">
+      <value>Диод LL4148</value>
+      <footprint>SOD80</footprint>
+      <fields>
+        <field name="COMPONENTLINK1DESCRIPTION">Параметры диода</field>
+        <field name="COMPONENTLINK1URL">ftp://192.168.1.200/Datasheets/Fairchild Semiconductor/Discrets/Diodes/LL4148.pdf</field>
+        <field name="COMPONENTLINK2DESCRIPTION">Сайт производителя</field>
+        <field name="COMPONENTLINK2URL">http://www.fairchildsemi.com/</field>
+        <field name="ID">i60026C5082230000003</field>
+        <field name="KEY IMBASE">i60026C5082230000003</field>
+        <field name="MANUFACTURERPARTNUMBER">LL4148</field>
+        <field name="PART NUMBER">3307</field>
+        <field name="КОРПУС">SOD80C</field>
+        <field name="ПРИМЕЧАНИЕ">*</field>
+      </fields>
+      <libsource lib="Power_Supply L072-altium-import" part="root_0_Diode" description="Диод"/>
+      <property name="MANUFACTURERPARTNUMBER" value="LL4148"/>
+      <property name="ID" value="i60026C5082230000003"/>
+      <property name="ПРИМЕЧАНИЕ" value="*"/>
+      <property name="КОРПУС" value="SOD80C"/>
+      <property name="COMPONENTLINK1DESCRIPTION" value="Параметры диода"/>
+      <property name="COMPONENTLINK1URL" value="ftp://192.168.1.200/Datasheets/Fairchild Semiconductor/Discrets/Diodes/LL4148.pdf"/>
+      <property name="COMPONENTLINK2DESCRIPTION" value="Сайт производителя"/>
+      <property name="COMPONENTLINK2URL" value="http://www.fairchildsemi.com/"/>
+      <property name="KEY IMBASE" value="i60026C5082230000003"/>
+      <property name="PART NUMBER" value="3307"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Power_Supply L072.kicad_sch"/>
+      <property name="ki_description" value="Диод"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4f96a06f-e78c-4fc1-830c-59ce4c51d15d</tstamps>
+    </comp>
+    <comp ref="VO1">
+      <value>FOD817B3SD</value>
+      <footprint>FOD817B3SD</footprint>
+      <fields>
+        <field name="COMPONENTLINK1DESCRIPTION">Параметры</field>
+        <field name="COMPONENTLINK1URL">ftp://192.168.1.200/Datasheets/Cosmo/K1010.pdf</field>
+        <field name="COMPONENTLINK2DESCRIPTION">Сайт производителя</field>
+        <field name="COMPONENTLINK2URL">http://www.cosmo-ic.com/</field>
+        <field name="ID">i60026C508222F00000C</field>
+        <field name="KEY IMBASE">i60026C508222F00000C</field>
+        <field name="MANUFACTURER">Cosmo</field>
+        <field name="MANUFACTURERPARTNUMBER">K10101D11</field>
+        <field name="PN">FOD817B3SD</field>
+        <field name="КОРПУС">DIP-4</field>
+        <field name="ПРИМЕЧАНИЕ">*</field>
+      </fields>
+      <libsource lib="Power_Supply L072-altium-import" part="root_0_mirrored_HCPL-817" description="Оптопара транзисторная"/>
+      <property name="MANUFACTURERPARTNUMBER" value="K10101D11"/>
+      <property name="ID" value="i60026C508222F00000C"/>
+      <property name="ПРИМЕЧАНИЕ" value="*"/>
+      <property name="КОРПУС" value="DIP-4"/>
+      <property name="MANUFACTURER" value="Cosmo"/>
+      <property name="COMPONENTLINK1DESCRIPTION" value="Параметры"/>
+      <property name="COMPONENTLINK1URL" value="ftp://192.168.1.200/Datasheets/Cosmo/K1010.pdf"/>
+      <property name="COMPONENTLINK2DESCRIPTION" value="Сайт производителя"/>
+      <property name="COMPONENTLINK2URL" value="http://www.cosmo-ic.com/"/>
+      <property name="KEY IMBASE" value="i60026C508222F00000C"/>
+      <property name="PN" value="FOD817B3SD"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Power_Supply L072.kicad_sch"/>
+      <property name="ki_description" value="Оптопара транзисторная"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3764ed6f-b4cd-4671-af9e-b64352d5d312</tstamps>
+    </comp>
+    <comp ref="VT1">
+      <value>DMN65D8L-7</value>
+      <footprint>SOT23_3</footprint>
+      <fields>
+        <field name="ALTIUM_VALUE">DMN65D8L-7</field>
+        <field name="PART NUMBER">6203</field>
+        <field name="VENDOR">diodes</field>
+        <field name="VENDOR PN">DMN65D8L-7</field>
+      </fields>
+      <libsource lib="Power_Supply L072-altium-import" part="root_0_IRML2502" description="DMN65D8L-7"/>
+      <property name="ALTIUM_VALUE" value="DMN65D8L-7"/>
+      <property name="VENDOR" value="diodes"/>
+      <property name="PART NUMBER" value="6203"/>
+      <property name="VENDOR PN" value="DMN65D8L-7"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Power_Supply L072.kicad_sch"/>
+      <property name="ki_description" value="DMN65D8L-7"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>20d136ab-f657-4ca3-b692-cec3b075bbd4</tstamps>
+    </comp>
+    <comp ref="VT2">
+      <value>BC847C</value>
+      <footprint>Transistor.IntLib:SOT23_3</footprint>
+      <fields>
+        <field name="MANUFACTURER">Nexperia</field>
+        <field name="PART NUMBER">5152</field>
+        <field name="PN">BC847C</field>
+      </fields>
+      <libsource lib="Power_Supply L072-altium-import" part="root_0_BC847C" description="BC847C"/>
+      <property name="PART NUMBER" value="5152"/>
+      <property name="PN" value="BC847C"/>
+      <property name="MANUFACTURER" value="Nexperia"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Power_Supply L072.kicad_sch"/>
+      <property name="ki_description" value="BC847C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d35800b2-1a7b-4496-9cd3-1f8734af2507</tstamps>
+    </comp>
+    <comp ref="X1">
+      <value>KLEMM2</value>
+      <footprint>DG250-3.5-02P-11-00A</footprint>
+      <fields>
+        <field name="ALTIUM_VALUE">{Value}</field>
+        <field name="PN">1792863</field>
+      </fields>
+      <libsource lib="Power_Supply L072-altium-import" part="root_2_KLEMM2" description="KLEMM2"/>
+      <property name="ALTIUM_VALUE" value="{Value}"/>
+      <property name="PN" value="1792863"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Power_Supply L072.kicad_sch"/>
+      <property name="ki_description" value="KLEMM2"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1fbe27b3-58a5-4933-a58a-4c19b5178108</tstamps>
+    </comp>
+    <comp ref="XS1">
+      <value>Отв.на плате</value>
+      <footprint>Pad 1mm2</footprint>
+      <fields>
+        <field name="ID">i60026C508261C000004</field>
+        <field name="KEY IMBASE">i60026C508261C000004</field>
+        <field name="PN">0050002</field>
+        <field name="STOP_MIRROR">True</field>
+        <field name="ПРИМЕЧАНИЕ">Отв. на плате</field>
+      </fields>
+      <libsource lib="Power_Supply L072-altium-import" part="root_0_CON1_holes" description="Отверстие на плате для контактного соединения"/>
+      <property name="STOP_MIRROR" value="True"/>
+      <property name="ID" value="i60026C508261C000004"/>
+      <property name="ПРИМЕЧАНИЕ" value="Отв. на плате"/>
+      <property name="KEY IMBASE" value="i60026C508261C000004"/>
+      <property name="PN" value="0050002"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Power_Supply L072.kicad_sch"/>
+      <property name="ki_description" value="Отверстие на плате для контактного соединения"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>292b7621-af47-43c6-82e6-4e538c89a3e3</tstamps>
+    </comp>
+    <comp ref="XS2">
+      <value>Отв.на плате</value>
+      <footprint>Pad 1mm2</footprint>
+      <fields>
+        <field name="ID">i60026C508261C000004</field>
+        <field name="KEY IMBASE">i60026C508261C000004</field>
+        <field name="PN">0050003</field>
+        <field name="STOP_MIRROR">True</field>
+        <field name="ПРИМЕЧАНИЕ">Отв. на плате</field>
+      </fields>
+      <libsource lib="Power_Supply L072-altium-import" part="root_0_CON1_holes" description="Отверстие на плате для контактного соединения"/>
+      <property name="STOP_MIRROR" value="True"/>
+      <property name="ID" value="i60026C508261C000004"/>
+      <property name="ПРИМЕЧАНИЕ" value="Отв. на плате"/>
+      <property name="KEY IMBASE" value="i60026C508261C000004"/>
+      <property name="PN" value="0050003"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Power_Supply L072.kicad_sch"/>
+      <property name="ki_description" value="Отверстие на плате для контактного соединения"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9429bb16-affc-47e2-84b5-b98446f1c942</tstamps>
+    </comp>
+    <comp ref="XS3">
+      <value>Отв.на плате</value>
+      <footprint>Pad 1mm2</footprint>
+      <fields>
+        <field name="ID">i60026C508261C000004</field>
+        <field name="KEY IMBASE">i60026C508261C000004</field>
+        <field name="PN">0050003</field>
+        <field name="STOP_MIRROR">True</field>
+        <field name="ПРИМЕЧАНИЕ">Отв. на плате</field>
+      </fields>
+      <libsource lib="Power_Supply L072-altium-import" part="root_0_mirrored_CON1_holes" description="Отверстие на плате для контактного соединения"/>
+      <property name="STOP_MIRROR" value="True"/>
+      <property name="ID" value="i60026C508261C000004"/>
+      <property name="ПРИМЕЧАНИЕ" value="Отв. на плате"/>
+      <property name="KEY IMBASE" value="i60026C508261C000004"/>
+      <property name="PN" value="0050003"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Power_Supply L072.kicad_sch"/>
+      <property name="ki_description" value="Отверстие на плате для контактного соединения"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dcf0026a-36d9-4357-b462-d1fbcc4e4f9e</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Power_Supply L072-altium-import" part="root_0_100uF 10V">
+      <description>TL1A101M-RBD15WP00</description>
+      <footprints>
+        <fp>D6.3P2.5L11.5</fp>
+      </footprints>
+      <fields/>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Power_Supply L072-altium-import" part="root_0_470uF 10V">
+      <description>TL1A471M-RBF11WP00</description>
+      <footprints>
+        <fp>D8P3.5L12</fp>
+      </footprints>
+      <fields/>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Power_Supply L072-altium-import" part="root_0_AP2125N-3.3TRG1">
+      <description>AP7384-33SA-7</description>
+      <footprints>
+        <fp>SOT23_3</fp>
+      </footprints>
+      <fields/>
+      <pins>
+        <pin num="1" name="I" type="passive"/>
+        <pin num="2" name="O" type="passive"/>
+        <pin num="3" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Power_Supply L072-altium-import" part="root_0_BAT54S">
+      <description>BAT54S</description>
+      <footprints>
+        <fp>SOT23_3</fp>
+      </footprints>
+      <fields/>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Power_Supply L072-altium-import" part="root_0_BC847C">
+      <description>BC847C</description>
+      <footprints>
+        <fp>Transistor.IntLib:SOT23_3</fp>
+      </footprints>
+      <fields/>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Power_Supply L072-altium-import" part="root_0_CON1_holes">
+      <description>Отверстие на плате для контактного соединения</description>
+      <footprints>
+        <fp>Pad 1mm2</fp>
+      </footprints>
+      <fields/>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Power_Supply L072-altium-import" part="root_0_CW57-332K">
+      <description>3300 µHn 0.07A</description>
+      <footprints>
+        <fp>L0504</fp>
+      </footprints>
+      <fields/>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Power_Supply L072-altium-import" part="root_0_Diode">
+      <description>Диод</description>
+      <footprints>
+        <fp>SOD80</fp>
+      </footprints>
+      <fields/>
+      <pins>
+        <pin num="1" name="Анод" type="passive"/>
+        <pin num="2" name="Катод" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Power_Supply L072-altium-import" part="root_0_ES1JFL">
+      <description>ES1JFL</description>
+      <footprints>
+        <fp>SOD123</fp>
+      </footprints>
+      <fields/>
+      <pins>
+        <pin num="1" name="Анод" type="passive"/>
+        <pin num="2" name="Катод" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Power_Supply L072-altium-import" part="root_0_GRM188R60J226MEA0D">
+      <description>22u 0603</description>
+      <footprints>
+        <fp>0603</fp>
+      </footprints>
+      <fields/>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Power_Supply L072-altium-import" part="root_0_GRM21BC7YA475KE11L">
+      <description>4.7uF 0805</description>
+      <footprints>
+        <fp>0805</fp>
+      </footprints>
+      <fields/>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Power_Supply L072-altium-import" part="root_0_IRML2502">
+      <description>DMN65D8L-7</description>
+      <footprints>
+        <fp>SOT23_3</fp>
+      </footprints>
+      <fields/>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Power_Supply L072-altium-import" part="root_0_Ind_1,4/2,3">
+      <footprints>
+        <fp>TLF9UAH103WR23K1</fp>
+      </footprints>
+      <fields/>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Power_Supply L072-altium-import" part="root_0_MDB10S">
+      <description>B10S</description>
+      <footprints>
+        <fp>MDB10S</fp>
+      </footprints>
+      <fields/>
+      <pins>
+        <pin num="1" name="+" type="passive"/>
+        <pin num="2" name="-" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+        <pin num="4" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Power_Supply L072-altium-import" part="root_0_MP020A-5GS">
+      <description>MP020A-5GS</description>
+      <footprints>
+        <fp>SO-7</fp>
+      </footprints>
+      <fields/>
+      <pins>
+        <pin num="1" name="VCC" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+        <pin num="3" name="FB" type="passive"/>
+        <pin num="4" name="CP" type="passive"/>
+        <pin num="5" name="GND" type="passive"/>
+        <pin num="6" name="GND" type="passive"/>
+        <pin num="7" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Power_Supply L072-altium-import" part="root_0_NRC06F10R0TR">
+      <description>0603 10 1%</description>
+      <footprints>
+        <fp>0603</fp>
+      </footprints>
+      <fields/>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Power_Supply L072-altium-import" part="root_0_NRCV12F4751TR">
+      <description>1206 4.75K</description>
+      <footprints>
+        <fp>1206</fp>
+      </footprints>
+      <fields/>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Power_Supply L072-altium-import" part="root_0_RM699B">
+      <description>RM699B</description>
+      <footprints>
+        <fp>RM12</fp>
+      </footprints>
+      <fields/>
+      <pins>
+        <pin num="1" name="+U" type="passive"/>
+        <pin num="2" name="-U" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Power_Supply L072-altium-import" part="root_0_RSS-2W224JB">
+      <description>220K 2W</description>
+      <footprints>
+        <fp>RSS2WH</fp>
+      </footprints>
+      <fields/>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Power_Supply L072-altium-import" part="root_0_Res">
+      <footprints>
+        <fp>1206</fp>
+      </footprints>
+      <fields/>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Power_Supply L072-altium-import" part="root_0_TS5W-18.4-18.4-9.2">
+      <description>TS5W-18.4-18.4-9.2</description>
+      <footprints>
+        <fp>TS5W</fp>
+      </footprints>
+      <fields/>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+        <pin num="7" name="7" type="passive"/>
+        <pin num="9" name="9" type="passive"/>
+        <pin num="10" name="10" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Power_Supply L072-altium-import" part="root_0_TX2G4R7M-RBG12">
+      <description>TX2G4R7M-RBG12</description>
+      <footprints>
+        <fp>D10P5L12</fp>
+      </footprints>
+      <fields/>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Power_Supply L072-altium-import" part="root_0_mirrored_0.1µF 0603">
+      <description>GRM188R71E104KA01D</description>
+      <footprints>
+        <fp>0603</fp>
+      </footprints>
+      <fields/>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Power_Supply L072-altium-import" part="root_0_mirrored_CON1_holes">
+      <description>Отверстие на плате для контактного соединения</description>
+      <footprints>
+        <fp>Pad 1mm2</fp>
+      </footprints>
+      <fields/>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Power_Supply L072-altium-import" part="root_0_mirrored_HCPL-817">
+      <description>Оптопара транзисторная</description>
+      <footprints>
+        <fp>FOD817B3SD</fp>
+      </footprints>
+      <fields/>
+      <pins>
+        <pin num="1" name="AN" type="passive"/>
+        <pin num="2" name="CAT" type="passive"/>
+        <pin num="3" name="E" type="passive"/>
+        <pin num="4" name="COL" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Power_Supply L072-altium-import" part="root_1_0.47µF 0603">
+      <description>NMC0603X7R474K25TRP</description>
+      <footprints>
+        <fp>0603</fp>
+      </footprints>
+      <fields/>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Power_Supply L072-altium-import" part="root_1_1000pF 300VAC">
+      <description>VY2102M29Y5US6TV7</description>
+      <footprints>
+        <fp>L12.5W5</fp>
+      </footprints>
+      <fields/>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Power_Supply L072-altium-import" part="root_1_10nF 0603">
+      <description>NMC0603X7R103J50TRP</description>
+      <footprints>
+        <fp>0603</fp>
+      </footprints>
+      <fields/>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Power_Supply L072-altium-import" part="root_1_CRCW0603-4751-FRT1">
+      <description>0603 4.75K 1%</description>
+      <footprints>
+        <fp>0603</fp>
+      </footprints>
+      <fields/>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Power_Supply L072-altium-import" part="root_1_CRCW060343K2FKTA">
+      <description>0603 43.2K 1%</description>
+      <footprints>
+        <fp>0603</fp>
+      </footprints>
+      <fields/>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Power_Supply L072-altium-import" part="root_1_ES1JFL">
+      <description>ES1JFL</description>
+      <footprints>
+        <fp>SOD123</fp>
+      </footprints>
+      <fields/>
+      <pins>
+        <pin num="1" name="Анод" type="passive"/>
+        <pin num="2" name="Катод" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Power_Supply L072-altium-import" part="root_1_Fuse">
+      <footprints>
+        <fp>FRN01W</fp>
+      </footprints>
+      <fields/>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Power_Supply L072-altium-import" part="root_1_Res">
+      <footprints>
+        <fp>1206</fp>
+      </footprints>
+      <fields/>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Power_Supply L072-altium-import" part="root_1_SFR16S0001203JA500">
+      <description>120K 0.5W</description>
+      <footprints>
+        <fp>1206</fp>
+      </footprints>
+      <fields/>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Power_Supply L072-altium-import" part="root_1_TestPointHole">
+      <description>Тестовая точка в виде отверстия на плате D=0.8мм</description>
+      <footprints>
+        <fp>TP0.5</fp>
+      </footprints>
+      <fields/>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Power_Supply L072-altium-import" part="root_1_VAR10-130 LYING">
+      <description>VAR10-130 LYING</description>
+      <footprints>
+        <fp>V10E320P</fp>
+      </footprints>
+      <fields/>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Power_Supply L072-altium-import" part="root_2_1000pF 300VAC">
+      <description>VY2102M29Y5US6TV7</description>
+      <footprints>
+        <fp>L16W5  V</fp>
+      </footprints>
+      <fields/>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Power_Supply L072-altium-import" part="root_2_BAV3004W">
+      <description>BAV3004W</description>
+      <footprints>
+        <fp>SOD123</fp>
+      </footprints>
+      <fields/>
+      <pins>
+        <pin num="1" name="Анод" type="passive"/>
+        <pin num="2" name="Катод" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Power_Supply L072-altium-import" part="root_2_Cap_NP">
+      <description>Общ.прим.</description>
+      <footprints>
+        <fp>0805</fp>
+      </footprints>
+      <fields/>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Power_Supply L072-altium-import" part="root_2_ES1JFL">
+      <description>ES1JFL</description>
+      <footprints>
+        <fp>SOD123</fp>
+      </footprints>
+      <fields/>
+      <pins>
+        <pin num="1" name="Анод" type="passive"/>
+        <pin num="2" name="Катод" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Power_Supply L072-altium-import" part="root_2_KLEMM2">
+      <description>KLEMM2</description>
+      <footprints>
+        <fp>DG250-3.5-02P-11-00A</fp>
+      </footprints>
+      <fields/>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Power_Supply L072-altium-import" part="root_2_mirrored_Ind_1,4/2,3">
+      <footprints>
+        <fp>TLF9UAH103WR23K1</fp>
+      </footprints>
+      <fields/>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Power_Supply L072-altium-import" part="root_3_CRCW0603-4751-FRT1">
+      <description>0603 4.75K 1%</description>
+      <footprints>
+        <fp>0603</fp>
+      </footprints>
+      <fields/>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Power_Supply L072-altium-import" part="root_3_Diode_Shottky">
+      <description>Диод Шоттки 40V 3A</description>
+      <footprints>
+        <fp>SMAE</fp>
+      </footprints>
+      <fields/>
+      <pins>
+        <pin num="1" name="Анод" type="passive"/>
+        <pin num="2" name="Катод" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Power_Supply L072-altium-import" part="root_3_NRC06F2003TR">
+      <description>0603 200K 1%</description>
+      <footprints>
+        <fp>0603</fp>
+      </footprints>
+      <fields/>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries/>
+  <nets>
+    <net code="1" name="+3.3V">
+      <node ref="R8" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="TP3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="VD6" pin="2" pintype="passive"/>
+      <node ref="VT2" pin="3" pinfunction="3" pintype="passive"/>
+    </net>
+    <net code="2" name="+3.3Vpm">
+      <node ref="C2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="D1" pin="2" pinfunction="O" pintype="passive"/>
+      <node ref="TP2" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="3" name="+5Vpm">
+      <node ref="C1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C17" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="D1" pin="1" pinfunction="I" pintype="passive"/>
+      <node ref="L4" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="R15" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="TP5" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="4" name="/IP">
+      <node ref="K1" pin="5" pinfunction="5" pintype="passive"/>
+      <node ref="L1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R2" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="5" name="/PHS">
+      <node ref="R11" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="VD6" pin="3" pintype="passive"/>
+      <node ref="VT2" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="6" name="/REL">
+      <node ref="R1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="VT1" pin="1" pintype="passive"/>
+    </net>
+    <net code="7" name="/VP">
+      <node ref="C3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="FU1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="L1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="RU1" pin="2" pintype="passive"/>
+    </net>
+    <net code="8" name="COM">
+      <node ref="FU1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="XS1" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="9" name="GNDA">
+      <node ref="C10" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C12" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C16" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C18" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C19" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R11" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R16" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="T1" pin="6" pinfunction="6" pintype="passive"/>
+      <node ref="TP4" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="VD6" pin="1" pintype="passive"/>
+      <node ref="VO1" pin="3" pinfunction="E" pintype="passive"/>
+      <node ref="VT1" pin="2" pintype="passive"/>
+    </net>
+    <net code="10" name="GNDpm">
+      <node ref="C1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C17" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C3" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="D1" pin="3" pinfunction="GND" pintype="passive"/>
+      <node ref="L4" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="R14" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R15" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="RU1" pin="1" pintype="passive"/>
+      <node ref="TP6" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="XS2" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="11" name="Net-(C7-Pad1)">
+      <node ref="C7" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C9" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="L3" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R3" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R6" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="T1" pin="3" pinfunction="3" pintype="passive"/>
+    </net>
+    <net code="12" name="Net-(C11-Pad1)">
+      <node ref="C11" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C15" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="L4" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R14" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="T1" pin="9" pinfunction="9" pintype="passive"/>
+    </net>
+    <net code="13" name="Net-(C13-Pad1)">
+      <node ref="C13" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R13" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="14" name="Net-(C14-Pad1)">
+      <node ref="C14" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R12" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="15" name="Net-(D2-+)">
+      <node ref="C4" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="D2" pin="1" pinfunction="+" pintype="passive"/>
+      <node ref="L3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R3" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="16" name="Net-(D2--)">
+      <node ref="C11" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C12" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C4" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C5" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C6" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C7" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C8" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="D2" pin="2" pinfunction="-" pintype="passive"/>
+      <node ref="D3" pin="2" pinfunction="GND" pintype="passive"/>
+      <node ref="D3" pin="5" pinfunction="GND" pintype="passive"/>
+      <node ref="D3" pin="6" pinfunction="GND" pintype="passive"/>
+      <node ref="R10" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="T1" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="17" name="Net-(D2-Pad3)">
+      <node ref="D2" pin="3" pintype="passive"/>
+      <node ref="L1" pin="3" pinfunction="3" pintype="passive"/>
+    </net>
+    <net code="18" name="Net-(D2-Pad4)">
+      <node ref="D2" pin="4" pintype="passive"/>
+      <node ref="L1" pin="4" pinfunction="4" pintype="passive"/>
+    </net>
+    <net code="19" name="Net-(D3-CP)">
+      <node ref="C6" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="D3" pin="4" pinfunction="CP" pintype="passive"/>
+    </net>
+    <net code="20" name="Net-(D3-D)">
+      <node ref="D3" pin="7" pinfunction="D" pintype="passive"/>
+      <node ref="R7" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="T1" pin="5" pinfunction="5" pintype="passive"/>
+    </net>
+    <net code="21" name="Net-(D3-FB)">
+      <node ref="C8" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="D3" pin="3" pinfunction="FB" pintype="passive"/>
+      <node ref="R10" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R9" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="22" name="Net-(D3-VCC)">
+      <node ref="C5" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="D3" pin="1" pinfunction="VCC" pintype="passive"/>
+      <node ref="R5" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="23" name="Net-(K1-+U)">
+      <node ref="K1" pin="1" pinfunction="+U" pintype="passive"/>
+      <node ref="VD1" pin="1" pinfunction="Анод" pintype="passive"/>
+      <node ref="VT1" pin="3" pintype="passive"/>
+    </net>
+    <net code="24" name="Net-(K1-Pad4)">
+      <node ref="K1" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="XS3" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="25" name="Net-(R4-Pad1)">
+      <node ref="R4" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="X1" pin="2" pintype="passive"/>
+    </net>
+    <net code="26" name="Net-(VD2-Анод)">
+      <node ref="R9" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="T1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="VD2" pin="1" pinfunction="Анод" pintype="passive"/>
+    </net>
+    <net code="27" name="Net-(VD2-Катод)">
+      <node ref="R5" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="VD2" pin="2" pinfunction="Катод" pintype="passive"/>
+    </net>
+    <net code="28" name="Net-(VD3-Анод)">
+      <node ref="R7" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="VD3" pin="1" pinfunction="Анод" pintype="passive"/>
+    </net>
+    <net code="29" name="Net-(VD3-Катод)">
+      <node ref="C9" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R6" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="VD3" pin="2" pinfunction="Катод" pintype="passive"/>
+    </net>
+    <net code="30" name="Net-(VD4-Анод)">
+      <node ref="R12" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="T1" pin="10" pinfunction="10" pintype="passive"/>
+      <node ref="VD4" pin="1" pinfunction="Анод" pintype="passive"/>
+    </net>
+    <net code="31" name="Net-(VD4-Катод)">
+      <node ref="C14" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C15" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="L4" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="VD4" pin="2" pinfunction="Катод" pintype="passive"/>
+    </net>
+    <net code="32" name="Net-(VD5-Анод)">
+      <node ref="R13" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="T1" pin="7" pinfunction="7" pintype="passive"/>
+      <node ref="VD5" pin="1" pinfunction="Анод" pintype="passive"/>
+    </net>
+    <net code="33" name="Net-(VD5-Катод)">
+      <node ref="C13" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C16" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="L6" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="VD5" pin="2" pinfunction="Катод" pintype="passive"/>
+    </net>
+    <net code="34" name="Net-(VD13-Анод)">
+      <node ref="VD13" pin="1" pinfunction="Анод" pintype="passive"/>
+      <node ref="VO1" pin="2" pinfunction="CAT" pintype="passive"/>
+      <node ref="X1" pin="1" pintype="passive"/>
+    </net>
+    <net code="35" name="Net-(VD13-Катод)">
+      <node ref="R4" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="VD13" pin="2" pinfunction="Катод" pintype="passive"/>
+      <node ref="VO1" pin="1" pinfunction="AN" pintype="passive"/>
+    </net>
+    <net code="36" name="Net-(VO1-COL)">
+      <node ref="C10" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R8" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="VO1" pin="4" pinfunction="COL" pintype="passive"/>
+      <node ref="VT2" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="37" name="VCC">
+      <node ref="C18" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C19" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="K1" pin="2" pinfunction="-U" pintype="passive"/>
+      <node ref="L6" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R16" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="TP1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="VD1" pin="2" pinfunction="Катод" pintype="passive"/>
+    </net>
+    <net code="38" name="unconnected-(K1-Pad3)">
+      <node ref="K1" pin="3" pinfunction="3" pintype="passive+no_connect"/>
+    </net>
+  </nets>
+</export>
